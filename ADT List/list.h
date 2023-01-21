@@ -1,0 +1,15 @@
+typedef struct c_list *list;
+list newList();
+int emptyList(list l);
+list consList(item val,list l);
+list tailList(list l);
+item getFirst(list l);
+int sizeList(list l);
+int posItem(list l,item val);
+list inputList(int n);
+item getItem(list l,int pos);
+list reverseList(list l);
+void outputList(list l);
+list insertList(list l,int pos,item val);
+list removeList(list l,int pos);
+list cloneList(list l);
